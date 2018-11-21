@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Insete película</title>
+</head>
+<body>
+    <form action="insert.php" method="post" enctype="multipart/form-data">
+        <label for="titulo">Titulo: </label>
+        <input type="text" id="titulo" name="titulo">
+        <br>
+        <label for="sinopsis">Sinopsis: </label>
+        <textarea id="sinopsis" name="sinopsis"></textarea>
+        <br>
+        <label for="foto">Foto: </label>
+        <input type="file" id="foto" name="foto">
+        <br>
+        <input type="submit" name="enviar">
+    </form>
+</body>
+</html>
