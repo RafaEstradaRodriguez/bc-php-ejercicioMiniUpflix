@@ -1,0 +1,32 @@
+h2{
+  text-align:center;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+.col-4{
+   color:white;
+  display:grid;
+  align-items:center;
+  justify-content:center;
+  background-color:black;
+}
+.clear{
+  clear:both;
+}
+.col-4{
+  color:white;
+  display:grid;
+  align-items:center;
+  justify-content:center;
+  background-color:black;
+  height:200px;
+  border:2px solid white;
+}
+.col-6{
+  color:white;
+  display:grid;
+  align-items:center;
+  justify-content:center;
+  background-color:black;
+  border:5px solid white;
+}
